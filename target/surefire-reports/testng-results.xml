@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-15T14:16:19 IST" name="opencartMasterSuite" finished-at="2023-09-15T14:17:37 IST" duration-ms="77729">
+    <groups>
+      <group name="Master">
+        <method signature="TC_002_AccountLoginTest.Login_test()[pri:1, instance:testcase.TC_002_AccountLoginTest@409bf450]" name="Login_test" class="testcase.TC_002_AccountLoginTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_002_AccountLoginTest.Login_test()[pri:1, instance:testcase.TC_002_AccountLoginTest@409bf450]" name="Login_test" class="testcase.TC_002_AccountLoginTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2023-09-15T14:16:19 IST" name="opencartTest" finished-at="2023-09-15T14:17:37 IST" duration-ms="77729">
+      <class name="testcase.TC_002_AccountLoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcase.TC_002_AccountLoginTest@409bf450]" started-at="2023-09-15T14:16:20 IST" name="setup" finished-at="2023-09-15T14:17:24 IST" duration-ms="64122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login_test()[pri:1, instance:testcase.TC_002_AccountLoginTest@409bf450]" started-at="2023-09-15T14:17:24 IST" name="Login_test" finished-at="2023-09-15T14:17:36 IST" duration-ms="12033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_test -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:testcase.TC_002_AccountLoginTest@409bf450]" started-at="2023-09-15T14:17:36 IST" name="closeapp" finished-at="2023-09-15T14:17:37 IST" duration-ms="821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- testcase.TC_002_AccountLoginTest -->
+    </test> <!-- opencartTest -->
+  </suite> <!-- opencartMasterSuite -->
+</testng-results>
